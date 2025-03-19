@@ -1,0 +1,275 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kunoj\\OneDrive\\Desktop\\Sistemas Distribuidos\\Practica2\\ControlAsistenciaWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B98040FC-2EE8-47FE-BDE9-59A897FAF3E4}|ControlAsistenciaWeb\\ControlAsistenciaWeb.csproj|c:\\users\\kunoj\\onedrive\\desktop\\sistemas distribuidos\\practica2\\controlasistenciaweb\\controlasistenciaweb\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B98040FC-2EE8-47FE-BDE9-59A897FAF3E4}|ControlAsistenciaWeb\\ControlAsistenciaWeb.csproj|solutionrelative:controlasistenciaweb\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98040FC-2EE8-47FE-BDE9-59A897FAF3E4}|ControlAsistenciaWeb\\ControlAsistenciaWeb.csproj|c:\\users\\kunoj\\onedrive\\desktop\\sistemas distribuidos\\practica2\\controlasistenciaweb\\controlasistenciaweb\\views\\empleados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B98040FC-2EE8-47FE-BDE9-59A897FAF3E4}|ControlAsistenciaWeb\\ControlAsistenciaWeb.csproj|solutionrelative:controlasistenciaweb\\views\\empleados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98040FC-2EE8-47FE-BDE9-59A897FAF3E4}|ControlAsistenciaWeb\\ControlAsistenciaWeb.csproj|c:\\users\\kunoj\\onedrive\\desktop\\sistemas distribuidos\\practica2\\controlasistenciaweb\\controlasistenciaweb\\models\\empleadoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B98040FC-2EE8-47FE-BDE9-59A897FAF3E4}|ControlAsistenciaWeb\\ControlAsistenciaWeb.csproj|solutionrelative:controlasistenciaweb\\models\\empleadoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98040FC-2EE8-47FE-BDE9-59A897FAF3E4}|ControlAsistenciaWeb\\ControlAsistenciaWeb.csproj|c:\\users\\kunoj\\onedrive\\desktop\\sistemas distribuidos\\practica2\\controlasistenciaweb\\controlasistenciaweb\\views\\empleados\\asistenciaempl.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B98040FC-2EE8-47FE-BDE9-59A897FAF3E4}|ControlAsistenciaWeb\\ControlAsistenciaWeb.csproj|solutionrelative:controlasistenciaweb\\views\\empleados\\asistenciaempl.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98040FC-2EE8-47FE-BDE9-59A897FAF3E4}|ControlAsistenciaWeb\\ControlAsistenciaWeb.csproj|c:\\users\\kunoj\\onedrive\\desktop\\sistemas distribuidos\\practica2\\controlasistenciaweb\\controlasistenciaweb\\views\\asistencia\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B98040FC-2EE8-47FE-BDE9-59A897FAF3E4}|ControlAsistenciaWeb\\ControlAsistenciaWeb.csproj|solutionrelative:controlasistenciaweb\\views\\asistencia\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98040FC-2EE8-47FE-BDE9-59A897FAF3E4}|ControlAsistenciaWeb\\ControlAsistenciaWeb.csproj|c:\\users\\kunoj\\onedrive\\desktop\\sistemas distribuidos\\practica2\\controlasistenciaweb\\controlasistenciaweb\\controllers\\asistenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B98040FC-2EE8-47FE-BDE9-59A897FAF3E4}|ControlAsistenciaWeb\\ControlAsistenciaWeb.csproj|solutionrelative:controlasistenciaweb\\controllers\\asistenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98040FC-2EE8-47FE-BDE9-59A897FAF3E4}|ControlAsistenciaWeb\\ControlAsistenciaWeb.csproj|c:\\users\\kunoj\\onedrive\\desktop\\sistemas distribuidos\\practica2\\controlasistenciaweb\\controlasistenciaweb\\models\\horastrabajada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B98040FC-2EE8-47FE-BDE9-59A897FAF3E4}|ControlAsistenciaWeb\\ControlAsistenciaWeb.csproj|solutionrelative:controlasistenciaweb\\models\\horastrabajada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98040FC-2EE8-47FE-BDE9-59A897FAF3E4}|ControlAsistenciaWeb\\ControlAsistenciaWeb.csproj|c:\\users\\kunoj\\onedrive\\desktop\\sistemas distribuidos\\practica2\\controlasistenciaweb\\controlasistenciaweb\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B98040FC-2EE8-47FE-BDE9-59A897FAF3E4}|ControlAsistenciaWeb\\ControlAsistenciaWeb.csproj|solutionrelative:controlasistenciaweb\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98040FC-2EE8-47FE-BDE9-59A897FAF3E4}|ControlAsistenciaWeb\\ControlAsistenciaWeb.csproj|c:\\users\\kunoj\\onedrive\\desktop\\sistemas distribuidos\\practica2\\controlasistenciaweb\\controlasistenciaweb\\models\\registrosasistencium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B98040FC-2EE8-47FE-BDE9-59A897FAF3E4}|ControlAsistenciaWeb\\ControlAsistenciaWeb.csproj|solutionrelative:controlasistenciaweb\\models\\registrosasistencium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98040FC-2EE8-47FE-BDE9-59A897FAF3E4}|ControlAsistenciaWeb\\ControlAsistenciaWeb.csproj|c:\\users\\kunoj\\onedrive\\desktop\\sistemas distribuidos\\practica2\\controlasistenciaweb\\controlasistenciaweb\\models\\controlasistenciacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B98040FC-2EE8-47FE-BDE9-59A897FAF3E4}|ControlAsistenciaWeb\\ControlAsistenciaWeb.csproj|solutionrelative:controlasistenciaweb\\models\\controlasistenciacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98040FC-2EE8-47FE-BDE9-59A897FAF3E4}|ControlAsistenciaWeb\\ControlAsistenciaWeb.csproj|c:\\users\\kunoj\\onedrive\\desktop\\sistemas distribuidos\\practica2\\controlasistenciaweb\\controlasistenciaweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B98040FC-2EE8-47FE-BDE9-59A897FAF3E4}|ControlAsistenciaWeb\\ControlAsistenciaWeb.csproj|solutionrelative:controlasistenciaweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98040FC-2EE8-47FE-BDE9-59A897FAF3E4}|ControlAsistenciaWeb\\ControlAsistenciaWeb.csproj|c:\\users\\kunoj\\onedrive\\desktop\\sistemas distribuidos\\practica2\\controlasistenciaweb\\controlasistenciaweb\\models\\totalesasistencium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B98040FC-2EE8-47FE-BDE9-59A897FAF3E4}|ControlAsistenciaWeb\\ControlAsistenciaWeb.csproj|solutionrelative:controlasistenciaweb\\models\\totalesasistencium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kunoj\\AppData\\Local\\Temp\\qnf2ruu0..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98040FC-2EE8-47FE-BDE9-59A897FAF3E4}|ControlAsistenciaWeb\\ControlAsistenciaWeb.csproj|c:\\users\\kunoj\\onedrive\\desktop\\sistemas distribuidos\\practica2\\controlasistenciaweb\\controlasistenciaweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B98040FC-2EE8-47FE-BDE9-59A897FAF3E4}|ControlAsistenciaWeb\\ControlAsistenciaWeb.csproj|solutionrelative:controlasistenciaweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98040FC-2EE8-47FE-BDE9-59A897FAF3E4}|ControlAsistenciaWeb\\ControlAsistenciaWeb.csproj|c:\\users\\kunoj\\onedrive\\desktop\\sistemas distribuidos\\practica2\\controlasistenciaweb\\controlasistenciaweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B98040FC-2EE8-47FE-BDE9-59A897FAF3E4}|ControlAsistenciaWeb\\ControlAsistenciaWeb.csproj|solutionrelative:controlasistenciaweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98040FC-2EE8-47FE-BDE9-59A897FAF3E4}|ControlAsistenciaWeb\\ControlAsistenciaWeb.csproj|c:\\users\\kunoj\\onedrive\\desktop\\sistemas distribuidos\\practica2\\controlasistenciaweb\\controlasistenciaweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B98040FC-2EE8-47FE-BDE9-59A897FAF3E4}|ControlAsistenciaWeb\\ControlAsistenciaWeb.csproj|solutionrelative:controlasistenciaweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmpleadoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\kunoj\\OneDrive\\Desktop\\Sistemas Distribuidos\\Practica2\\ControlAsistenciaWeb\\ControlAsistenciaWeb\\Models\\EmpleadoViewModel.cs",
+              "RelativeDocumentMoniker": "ControlAsistenciaWeb\\Models\\EmpleadoViewModel.cs",
+              "ToolTip": "C:\\Users\\kunoj\\OneDrive\\Desktop\\Sistemas Distribuidos\\Practica2\\ControlAsistenciaWeb\\ControlAsistenciaWeb\\Models\\EmpleadoViewModel.cs",
+              "RelativeToolTip": "ControlAsistenciaWeb\\Models\\EmpleadoViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T18:45:46.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\kunoj\\OneDrive\\Desktop\\Sistemas Distribuidos\\Practica2\\ControlAsistenciaWeb\\ControlAsistenciaWeb\\Models\\Empleado.cs",
+              "RelativeDocumentMoniker": "ControlAsistenciaWeb\\Models\\Empleado.cs",
+              "ToolTip": "C:\\Users\\kunoj\\OneDrive\\Desktop\\Sistemas Distribuidos\\Practica2\\ControlAsistenciaWeb\\ControlAsistenciaWeb\\Models\\Empleado.cs",
+              "RelativeToolTip": "ControlAsistenciaWeb\\Models\\Empleado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T04:20:08.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AsistenciaController.cs",
+              "DocumentMoniker": "C:\\Users\\kunoj\\OneDrive\\Desktop\\Sistemas Distribuidos\\Practica2\\ControlAsistenciaWeb\\ControlAsistenciaWeb\\Controllers\\AsistenciaController.cs",
+              "RelativeDocumentMoniker": "ControlAsistenciaWeb\\Controllers\\AsistenciaController.cs",
+              "ToolTip": "C:\\Users\\kunoj\\OneDrive\\Desktop\\Sistemas Distribuidos\\Practica2\\ControlAsistenciaWeb\\ControlAsistenciaWeb\\Controllers\\AsistenciaController.cs",
+              "RelativeToolTip": "ControlAsistenciaWeb\\Controllers\\AsistenciaController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAYwCgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T05:26:06.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmpleadosController.cs",
+              "DocumentMoniker": "C:\\Users\\kunoj\\OneDrive\\Desktop\\Sistemas Distribuidos\\Practica2\\ControlAsistenciaWeb\\ControlAsistenciaWeb\\Controllers\\EmpleadosController.cs",
+              "RelativeDocumentMoniker": "ControlAsistenciaWeb\\Controllers\\EmpleadosController.cs",
+              "ToolTip": "C:\\Users\\kunoj\\OneDrive\\Desktop\\Sistemas Distribuidos\\Practica2\\ControlAsistenciaWeb\\ControlAsistenciaWeb\\Controllers\\EmpleadosController.cs",
+              "RelativeToolTip": "ControlAsistenciaWeb\\Controllers\\EmpleadosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T04:15:26.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AsistenciaEmpl.cshtml",
+              "DocumentMoniker": "C:\\Users\\kunoj\\OneDrive\\Desktop\\Sistemas Distribuidos\\Practica2\\ControlAsistenciaWeb\\ControlAsistenciaWeb\\Views\\Empleados\\AsistenciaEmpl.cshtml",
+              "RelativeDocumentMoniker": "ControlAsistenciaWeb\\Views\\Empleados\\AsistenciaEmpl.cshtml",
+              "ToolTip": "C:\\Users\\kunoj\\OneDrive\\Desktop\\Sistemas Distribuidos\\Practica2\\ControlAsistenciaWeb\\ControlAsistenciaWeb\\Views\\Empleados\\AsistenciaEmpl.cshtml",
+              "RelativeToolTip": "ControlAsistenciaWeb\\Views\\Empleados\\AsistenciaEmpl.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-17T05:36:56.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kunoj\\OneDrive\\Desktop\\Sistemas Distribuidos\\Practica2\\ControlAsistenciaWeb\\ControlAsistenciaWeb\\Views\\Empleados\\Index.cshtml",
+              "RelativeDocumentMoniker": "ControlAsistenciaWeb\\Views\\Empleados\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kunoj\\OneDrive\\Desktop\\Sistemas Distribuidos\\Practica2\\ControlAsistenciaWeb\\ControlAsistenciaWeb\\Views\\Empleados\\Index.cshtml",
+              "RelativeToolTip": "ControlAsistenciaWeb\\Views\\Empleados\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-17T04:18:10.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kunoj\\OneDrive\\Desktop\\Sistemas Distribuidos\\Practica2\\ControlAsistenciaWeb\\ControlAsistenciaWeb\\Views\\Asistencia\\Index.cshtml",
+              "RelativeDocumentMoniker": "ControlAsistenciaWeb\\Views\\Asistencia\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kunoj\\OneDrive\\Desktop\\Sistemas Distribuidos\\Practica2\\ControlAsistenciaWeb\\ControlAsistenciaWeb\\Views\\Asistencia\\Index.cshtml",
+              "RelativeToolTip": "ControlAsistenciaWeb\\Views\\Asistencia\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALQAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-17T05:27:04.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HorasTrabajada.cs",
+              "DocumentMoniker": "C:\\Users\\kunoj\\OneDrive\\Desktop\\Sistemas Distribuidos\\Practica2\\ControlAsistenciaWeb\\ControlAsistenciaWeb\\Models\\HorasTrabajada.cs",
+              "RelativeDocumentMoniker": "ControlAsistenciaWeb\\Models\\HorasTrabajada.cs",
+              "ToolTip": "C:\\Users\\kunoj\\OneDrive\\Desktop\\Sistemas Distribuidos\\Practica2\\ControlAsistenciaWeb\\ControlAsistenciaWeb\\Models\\HorasTrabajada.cs",
+              "RelativeToolTip": "ControlAsistenciaWeb\\Models\\HorasTrabajada.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T14:17:39.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\kunoj\\OneDrive\\Desktop\\Sistemas Distribuidos\\Practica2\\ControlAsistenciaWeb\\ControlAsistenciaWeb\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ControlAsistenciaWeb\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\kunoj\\OneDrive\\Desktop\\Sistemas Distribuidos\\Practica2\\ControlAsistenciaWeb\\ControlAsistenciaWeb\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ControlAsistenciaWeb\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T14:18:53.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegistrosAsistencium.cs",
+              "DocumentMoniker": "C:\\Users\\kunoj\\OneDrive\\Desktop\\Sistemas Distribuidos\\Practica2\\ControlAsistenciaWeb\\ControlAsistenciaWeb\\Models\\RegistrosAsistencium.cs",
+              "RelativeDocumentMoniker": "ControlAsistenciaWeb\\Models\\RegistrosAsistencium.cs",
+              "ToolTip": "C:\\Users\\kunoj\\OneDrive\\Desktop\\Sistemas Distribuidos\\Practica2\\ControlAsistenciaWeb\\ControlAsistenciaWeb\\Models\\RegistrosAsistencium.cs",
+              "RelativeToolTip": "ControlAsistenciaWeb\\Models\\RegistrosAsistencium.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T05:24:41.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ControlAsistenciaContext.cs",
+              "DocumentMoniker": "C:\\Users\\kunoj\\OneDrive\\Desktop\\Sistemas Distribuidos\\Practica2\\ControlAsistenciaWeb\\ControlAsistenciaWeb\\Models\\ControlAsistenciaContext.cs",
+              "RelativeDocumentMoniker": "ControlAsistenciaWeb\\Models\\ControlAsistenciaContext.cs",
+              "ToolTip": "C:\\Users\\kunoj\\OneDrive\\Desktop\\Sistemas Distribuidos\\Practica2\\ControlAsistenciaWeb\\ControlAsistenciaWeb\\Models\\ControlAsistenciaContext.cs",
+              "RelativeToolTip": "ControlAsistenciaWeb\\Models\\ControlAsistenciaContext.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAFcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T04:33:18.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TotalesAsistencium.cs",
+              "DocumentMoniker": "C:\\Users\\kunoj\\OneDrive\\Desktop\\Sistemas Distribuidos\\Practica2\\ControlAsistenciaWeb\\ControlAsistenciaWeb\\Models\\TotalesAsistencium.cs",
+              "RelativeDocumentMoniker": "ControlAsistenciaWeb\\Models\\TotalesAsistencium.cs",
+              "ToolTip": "C:\\Users\\kunoj\\OneDrive\\Desktop\\Sistemas Distribuidos\\Practica2\\ControlAsistenciaWeb\\ControlAsistenciaWeb\\Models\\TotalesAsistencium.cs",
+              "RelativeToolTip": "ControlAsistenciaWeb\\Models\\TotalesAsistencium.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T14:22:00.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "qnf2ruu0..sql",
+              "DocumentMoniker": "C:\\Users\\kunoj\\AppData\\Local\\Temp\\qnf2ruu0..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\qnf2ruu0..sql",
+              "ToolTip": "C:\\Users\\kunoj\\AppData\\Local\\Temp\\qnf2ruu0..sql",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\qnf2ruu0..sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-18T14:15:51.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\kunoj\\OneDrive\\Desktop\\Sistemas Distribuidos\\Practica2\\ControlAsistenciaWeb\\ControlAsistenciaWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ControlAsistenciaWeb\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\kunoj\\OneDrive\\Desktop\\Sistemas Distribuidos\\Practica2\\ControlAsistenciaWeb\\ControlAsistenciaWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ControlAsistenciaWeb\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-17T04:18:35.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kunoj\\OneDrive\\Desktop\\Sistemas Distribuidos\\Practica2\\ControlAsistenciaWeb\\ControlAsistenciaWeb\\Program.cs",
+              "RelativeDocumentMoniker": "ControlAsistenciaWeb\\Program.cs",
+              "ToolTip": "C:\\Users\\kunoj\\OneDrive\\Desktop\\Sistemas Distribuidos\\Practica2\\ControlAsistenciaWeb\\ControlAsistenciaWeb\\Program.cs",
+              "RelativeToolTip": "ControlAsistenciaWeb\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T03:49:55.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\kunoj\\OneDrive\\Desktop\\Sistemas Distribuidos\\Practica2\\ControlAsistenciaWeb\\ControlAsistenciaWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "ControlAsistenciaWeb\\appsettings.json",
+              "ToolTip": "C:\\Users\\kunoj\\OneDrive\\Desktop\\Sistemas Distribuidos\\Practica2\\ControlAsistenciaWeb\\ControlAsistenciaWeb\\appsettings.json",
+              "RelativeToolTip": "ControlAsistenciaWeb\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-17T03:49:57.64Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

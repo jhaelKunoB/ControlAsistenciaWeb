@@ -1,0 +1,196 @@
+﻿@model IEnumerable<dynamic>
+
+
+
+    <!-- DataTables CSS -->
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.3.6/css/buttons.dataTables.min.css">
+
+
+
+<h2 class="text-center">Registro de Asistencia</h2>
+
+<div class="row mb-3">
+    <div class="col-md-4">
+        <label>Desde:</label>
+        <input type="date" id="minFecha" class="form-control" />
+    </div>
+    <div class="col-md-4">
+        <label>Hasta:</label>
+        <input type="date" id="maxFecha" class="form-control" />
+    </div>
+</div>
+
+<table id="asistenciaTable" class="table table-striped table-bordered">
+    <thead class="table-dark">
+        <tr>
+            <th>Fecha</th>
+            <th>Empleado</th>
+            <th>Hora Entrada</th>
+            <th>Hora Salida</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Fecha.ToString("dd/MM/yyyy")</td>
+                <td>@item.Empleado</td>
+                   <td>
+                    @if (item.Entrada != null)
+                    {
+                <span class="badge bg-success">@item.Entrada.Hora</span> <!-- Hora encriptada -->
+                    }
+                    else
+                    {
+                <span class="badge bg-warning">No Registrado</span>
+                    }
+                </td>
+                <td>
+                                @if (item.Salida != null)
+                                {
+                            <span class="badge bg-danger">@item.Salida.Hora</span> <!-- Hora encriptada -->
+                                }
+                                else
+                                {
+                            <span class="badge bg-warning">No Registrado</span>
+                                }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div class="row mb-3">
+    <div class="col-md-4">
+        <label>Contraseña para desencriptar horas:</label>
+        <input type="password" id="decryptPassword" class="form-control" placeholder="Ingrese la contraseña" />
+    </div>
+    <div class="col-md-2">
+        <button id="decryptButton" class="btn btn-primary mt-4">Desencriptar Horas</button>
+    </div>
+</div>
+
+
+<!-- jQuery (Debe cargarse antes que DataTables) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- DataTables -->
+<script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.3.6/js/dataTables.buttons.min.js"></script>
+
+
+<script>
+    $(document).ready(function () {
+
+        //para poder Desencriptar las horas de trabajo
+
+         $('#decryptButton').click(function () {
+            var password = $('#decryptPassword').val();
+
+            if (!password) {
+                alert("Por favor, ingrese la contraseña.");
+                return;
+            }
+
+            // Obtener todas las horas encriptadas
+            var encryptedHours = [];
+            $('#asistenciaTable tbody tr').each(function () {
+                var entrada = $(this).find('td').eq(2).text().trim();
+                var salida = $(this).find('td').eq(3).text().trim();
+
+                encryptedHours.push({
+                    entrada: entrada !== "No Registrado" ? entrada : null,
+                    salida: salida !== "No Registrado" ? salida : null
+                });
+            });
+
+            // Enviar contraseña y horas al servidor
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("DesencriptarHoras", "Empleados")', // Cambia "TuControlador" por el nombre real
+                contentType: "application/json; charset=utf-8",
+                data: JSON.stringify({
+                    password: password,
+                    horas: encryptedHours
+                }),
+                success: function (response) {
+                    // Actualizar la tabla con horas desencriptadas
+                    $('#asistenciaTable tbody tr').each(function (index) {
+                        var entrada = response[index].entrada;
+                        var salida = response[index].salida;
+
+                        $(this).find('td').eq(2).html(
+                            entrada 
+                                ? `<span class="badge bg-success">${entrada}</span>` 
+                                : `<span class="badge bg-warning">No Registrado</span>`
+                        );
+                        $(this).find('td').eq(3).html(
+                            salida 
+                                ? `<span class="badge bg-danger">${salida}</span>` 
+                                : `<span class="badge bg-warning">No Registrado</span>`
+                        );
+                    });
+                },
+                error: function () {
+                    alert("Error al desencriptar las horas. Verifique la contraseña.");
+                }
+            });
+        });
+
+
+
+
+
+        // Agregar filtro personalizado por fecha
+        $.fn.dataTable.ext.search.push(
+            function (settings, data, dataIndex) {
+                var min = $('#minFecha').val();
+                var max = $('#maxFecha').val();
+
+                // Obtener fecha de la tabla y convertir a formato "yyyy-MM-dd"
+                var fechaStr = data[0]; // Fecha está en la primera columna (índice 0)
+
+                if (!fechaStr) return false; // Si no hay fecha, no mostrar
+
+                var parts = fechaStr.split('/');
+                var fecha = parts[2] + '-' + parts[1] + '-' + parts[0]; // yyyy-MM-dd
+
+                if ((min === "" || fecha >= min) && (max === "" || fecha <= max)) {
+                    return true;
+                }
+                return false;
+            }
+        );
+
+
+
+
+
+
+        var table = $('#asistenciaTable').DataTable({
+            "paging": true,
+            "searching": true,
+            "ordering": true,
+            "info": true,
+            "language": {
+                "lengthMenu": "Mostrar _MENU_ registros por página",
+                "zeroRecords": "No se encontraron registros",
+                "info": "Mostrando página _PAGE_ de _PAGES_",
+                "infoEmpty": "No hay registros disponibles",
+                "infoFiltered": "(filtrado de _MAX_ registros totales)",
+                "search": "Buscar:",
+                "paginate": {
+                    "next": "Siguiente",
+                    "previous": "Anterior"
+                }
+            }
+        });
+
+        // Redibujar la tabla cuando cambien las fechas
+        $('#minFecha, #maxFecha').on('change', function () {
+            table.draw();
+        });
+    });
+</script>
+

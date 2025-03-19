@@ -1,0 +1,102 @@
+﻿@model IEnumerable<ControlAsistenciaWeb.Models.EmpleadoViewModel>
+
+
+@{
+    ViewData["Title"] = "Lista de Usuarios";
+}
+
+    <!-- DataTables CSS -->
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.3.6/css/buttons.dataTables.min.css">
+
+
+<h2 class="text-center">Lista de Usuarios</h2>
+
+<!-- Filtro por Departamento -->
+<div class="mb-3">
+    <label for="departamentoFiltro" class="form-label">Filtrar por Departamento:</label>
+    <select id="departamentoFiltro" class="form-select">
+        <option value="">Todos</option>
+        @foreach (var departamento in Model.Select(u => u.Departamento).Distinct())
+        {
+                <option value="@departamento">@departamento</option>
+        }
+    </select>
+</div>
+
+<!-- Tabla de Usuarios -->
+<div class="table-responsive">
+  <table id="usuariosTable" class="table table-striped table-bordered">
+    <thead class="table-dark">
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Departamento</th>
+            <th>Días Trabajados</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+            @{
+                int contador = 1; // Contador para ID
+            }
+            @foreach (var usuario in Model)
+            {
+                <tr>
+                    <td>@contador</td>
+                    <td>@usuario.Nombre</td>
+                    <td>@usuario.Departamento</td>
+                    <td>@usuario.DiasTrabajados</td>
+                    <td>
+                        <a asp-action="AsistenciaEmpl" asp-route-id="@usuario.Id" class="btn btn-warning btn-sm">
+                            Ver Registro de Asistencia
+                        </a>
+                    </td>
+                </tr>
+                contador++;
+            }
+    </tbody>
+</table>
+</div>
+<!-- jQuery (Debe cargarse antes que DataTables) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- DataTables -->
+<script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.3.6/js/dataTables.buttons.min.js"></script>
+
+<!-- Inicialización de DataTables -->
+<script>
+    $(document).ready(function () {
+        // Verifica que DataTables esté disponible
+        console.log("DataTables cargado:", $.fn.DataTable ? "Sí" : "No");
+
+        if ($.fn.DataTable.isDataTable("#usuariosTable")) {
+            $("#usuariosTable").DataTable().destroy();
+        }
+
+        var table = $('#usuariosTable').DataTable({
+            "paging": true,
+            "searching": true,
+            "ordering": true,
+            "info": true,
+            "language": {
+                "lengthMenu": "Mostrar _MENU_ registros por página",
+                "zeroRecords": "No se encontraron registros",
+                "info": "Mostrando página _PAGE_ de _PAGES_",
+                "infoEmpty": "No hay registros disponibles",
+                "infoFiltered": "(filtrado de _MAX_ registros totales)",
+                "search": "Buscar:",
+                "paginate": {
+                    "next": "Siguiente",
+                    "previous": "Anterior"
+                }
+            }
+        });
+
+        // Filtro por departamento
+        $('#departamentoFiltro').on('change', function () {
+            table.column(2).search(this.value).draw();
+        });
+    });
+</script>
